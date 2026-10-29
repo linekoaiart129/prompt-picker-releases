@@ -18,8 +18,8 @@ SHA-256 checksums for 0.1.15:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-0.1.15.exe` | `a1a812baff03c03d3135916d64ff41832d9f38be7afbe92ddf473876d190506a` |
-| `PromptPicker-0.1.15-Windows.zip` | `3f88923508b745967d65323fc322811bbcc369085ab88edd1dc2c495d50fcd22` |
+| `PromptPicker-Setup-0.1.15.exe` | `422957192c5c7a865dc27bf5273d66256094c64d2a6a9074314d44504841c9bf` |
+| `PromptPicker-0.1.15-Windows.zip` | `475f85f187f69276522accd0896f3bdd1a722fb7ee1aaa1ba2dc7b4fbcb3f454` |
 
 The same checksums are in the release notes.
 
@@ -59,6 +59,8 @@ Settings > Others and Windows Settings > Apps offer the same two choices.
 **Will an update erase my prompts?** No. An update replaces the program files in the folder you chose.
 
 **Why does SmartScreen warn me?** The installer is not code-signed. More info, then Run anyway, is the expected step. Leave SmartScreen and Defender on.
+
+**Avast blocked the installer and nothing was installed.** Avast (CyberCapture or Behavior Shield) can stop an unsigned NSIS installer before its first instruction. Defender's protection history stays empty when Defender is in passive mode because another antivirus is active. Do not turn Avast off. If `%TEMP%\PromptPicker-install.log` was not created, setup never started. Submit the setup exe as a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL from the releases page. After Avast clears the file, run the same installer again.
 
 **Why was the old Start Menu shortcut an "Unspecified error"?** That shortcut stored an AppUserModelID the Start Menu could not activate. 0.1.13 does not create a Start Menu shortcut and removes the old one.
 
