@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.5
+
+- Updates and download links use the GitHub account linekoaiart129. An installed 1.1.4 still finds this release through GitHub's redirect from the previous account.
+- The notes in the app are the change bullets only.
+
 ## 1.1.4
 
 - Pick reads the selected character's done rows at the moment of the click and never returns one of those rows, including rows saved as text and numbers mixed together or imported from spreadsheet JSON. Fast clicks and Enter are locked until that row is saved. Undo and Redo update the same list immediately.
