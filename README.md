@@ -13,15 +13,15 @@ Prompt Picker draws one prompt from your own library. It keeps the prompt text, 
 
 Installers are on the [releases](https://github.com/broplaygame75-ai/prompt-picker-releases/releases) page.
 
-- `PromptPicker-Setup-1.1.2.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
-- `PromptPicker-1.1.2-Windows.zip` contains the installer, the install guide, and the pictures.
+- `PromptPicker-Setup-1.1.3.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
+- `PromptPicker-1.1.3-Windows.zip` contains the installer, the install guide, and the pictures.
 
-SHA-256 checksums for 1.1.2:
+SHA-256 checksums for 1.1.3:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-1.1.2.exe` | `eedceb430120a0049307740d9ba335c10d0d8ef00e5c3f09724b8eeea6d49563` |
-| `PromptPicker-1.1.2-Windows.zip` | `034f15ea2c4611de573f10da902ef4dac34689729eb98bb7de09121d0830a1ab` |
+| `PromptPicker-Setup-1.1.3.exe` | `be7f372902e75dfd811581c5c902392188ce6ff179084357419e6b0a589ae459` |
+| `PromptPicker-1.1.3-Windows.zip` | `5eb12359149d9b89b743e30110bbcc602fca08b86d2e49e19f298706242c57c0` |
 
 The same checksums are listed with the download files on that version's release. The release notes do not repeat this install guide.
 
