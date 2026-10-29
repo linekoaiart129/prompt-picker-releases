@@ -3,6 +3,7 @@
 ## 1.1.3
 
 - Pick existing selects the same character after a reload or an update, using its log id. New mode still restores Name and Source. A deleted character is left unselected.
+- Add prompt and Paste prompts toggle from their own buttons. The X at the top-right of each panel closes that panel.
 
 ## 1.1.2
 
