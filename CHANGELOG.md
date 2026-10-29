@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.17
+
+- The onboarding tour, hints, and tooltips match the current app: Filters, Label Option (Alt+F and Alt+N), Ctrl+N on Prompts Data, the New-label remove button with Ctrl+Z, Settings > Others (Contact and the two uninstall choices), the install folder, and the update popup.
+- Settings > Shortcuts lists every shortcut, grouped by tab, including Alt+F, Alt+N, and Ctrl+N. Reset to default restores them. A key already used by another action is rejected.
+- Settings > Updates shows the current version, Check for updates, and the short list of what changed. Install steps, checksums, and illustrations stay on this page.
+- Avast or AVG Auto-Sandbox can stop the unsigned setup before it starts. Do not turn the antivirus off. 0.1.16 installs when that sandbox is not blocking the file. SmartScreen still uses More info, then Run anyway.
+
 ## 0.1.16
 
 - If setup can start but cannot write the folder, it explains Controlled Folder Access, antivirus, or a permissions policy, and points to `%TEMP%\PromptPicker-install.log`. That log records the account name, the profile folder, and the temp folder from the first step. Do not turn antivirus off. If the log file was never created, setup was stopped before it started.
