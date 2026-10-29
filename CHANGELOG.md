@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.1.18
+## 0.1.19
 
+- Pick prompt > Character > New is two fields, Name and Source. The first pick creates that character in Prompt Log with a stable numeric id and logs the pick. Undo removes the character when it has no logged prompts left. Redo creates it again.
 - The onboarding tour, hints, and tooltips match the current app: Filters, Label Option (Alt+F and Alt+N), Ctrl+N on Prompts Data, the New-label remove button with Ctrl+Z, Settings > Others (Contact and the two uninstall choices), the install folder, and the update popup.
 - Settings > Shortcuts lists every shortcut, grouped by tab, including Alt+F, Alt+N, and Ctrl+N. They can be rebound. Reset to default restores them. A key already used by another action is rejected.
 - Settings > Updates shows the current version, Check for updates, and the short list of what changed.
