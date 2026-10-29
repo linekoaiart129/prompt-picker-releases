@@ -20,8 +20,8 @@ SHA-256 checksums for 1.1.3:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-1.1.3.exe` | `be7f372902e75dfd811581c5c902392188ce6ff179084357419e6b0a589ae459` |
-| `PromptPicker-1.1.3-Windows.zip` | `5eb12359149d9b89b743e30110bbcc602fca08b86d2e49e19f298706242c57c0` |
+| `PromptPicker-Setup-1.1.3.exe` | `8d0b015eb1db947baba3f936eb29d9ac6797f874463499325f1f2d941a3c1155` |
+| `PromptPicker-1.1.3-Windows.zip` | `28b611325d65635c5b3e91e00a0e74644354830be6f5e9a88686b75dd1ef3222` |
 
 The same checksums are listed with the download files on that version's release. The release notes do not repeat this install guide.
 
