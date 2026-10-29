@@ -5,21 +5,23 @@
 
 **18+.** Prompt Picker is for adults. The first launch asks "Are you 18 or older?"
 
+Versions use `1.FEATURE.FIX`. The middle number goes up for new features. The last number goes up for a small fix. 1.1.1 is the first public Windows release. The web app launches separately as 1.2.0. Later Windows notes describe the current release, not a list of older builds.
+
 Prompt Picker draws one prompt from your own library. It keeps the prompt text, names, levels, labels, notes, and a log of which character used which row. You can search, sort, and import or export that library as JSON. Each GitHub release lists only what changed and the download files. This page is the install guide. This repository publishes installers and documentation only. Source code is not included.
 
 ## Download
 
 Installers are on the [releases](https://github.com/broplaygame75-ai/prompt-picker-releases/releases) page.
 
-- `PromptPicker-Setup-0.1.19.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
-- `PromptPicker-0.1.19-Windows.zip` contains the installer, the install guide, and the pictures.
+- `PromptPicker-Setup-1.1.1.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
+- `PromptPicker-1.1.1-Windows.zip` contains the installer, the install guide, and the pictures.
 
-SHA-256 checksums for 0.1.19:
+SHA-256 checksums for 1.1.1:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-0.1.19.exe` | `028705669cca3c68e9849677d6dc1ae55612432beae42f1783246d1317a45ced` |
-| `PromptPicker-0.1.19-Windows.zip` | `0cf21c5c71000ea65d65b6558cdfe94a936b56d51c8adbc12d7da97d3ea963c3` |
+| `PromptPicker-Setup-1.1.1.exe` | `23bcfeecb6aeffab826bd8d853dd900f958182a9eba33c74c05c3c57d9b7dfa0` |
+| `PromptPicker-1.1.1-Windows.zip` | `3c6fa3326333792fb284f2f6038aa166bce88196838ad18b6e57b3995a80df8a` |
 
 The same checksums are listed with the download files on that version's release. The release notes do not repeat this install guide.
 
@@ -27,7 +29,7 @@ The same checksums are listed with the download files on that version's release.
 
 1. Download the Setup exe, or open the zip and run the Setup exe inside it.
 2. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**. The app is not code-signed. Do not turn off SmartScreen or Defender.
-3. Avast or AVG Auto-Sandbox can stop the unsigned installer before it starts. Do not turn the antivirus off. Add an exception for the setup file, or report a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL. If `%TEMP%\PromptPicker-install.log` was never created, setup did not start. 0.1.16 installs once that sandbox is not blocking the file.
+3. Avast or AVG Auto-Sandbox can stop the unsigned installer before it starts. Do not turn the antivirus off. Add an exception for the setup file, or report a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL. If `%TEMP%\PromptPicker-install.log` was never created, setup did not start.
 4. Choose a folder. The suggested folder is `C:\Prompt Picker` when that location can be created. Otherwise it is a Prompt Picker folder in your user profile. Program files go in the folder you choose.
 5. A Desktop shortcut is created. A Start Menu shortcut is not created, and an old Start Menu shortcut named Prompt Picker is removed.
 6. Confirm you are 18 or older, then pick a prompt.
@@ -61,9 +63,9 @@ Settings > Others and Windows Settings > Apps offer the same two choices.
 
 **Why does SmartScreen warn me?** The installer is not code-signed. Click **More info**, then **Run anyway**. Leave SmartScreen and Defender on. Do not turn them off.
 
-**Avast or AVG blocked the installer and nothing was installed.** Auto-Sandbox can stop the unsigned setup before its first instruction, so there is no install folder, no shortcut, and no `%TEMP%\PromptPicker-install.log`. CyberCapture or Behavior Shield can do the same. Defender's protection history stays empty while Defender is passive. This was confirmed: 0.1.16 installs when Avast Auto-Sandbox is not blocking the file. Do not turn Avast or AVG off. Add an exception for the setup file, or submit it as a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL from the releases page. After it is cleared, run the same installer again.
+**Avast or AVG blocked the installer and nothing was installed.** Auto-Sandbox can stop the unsigned setup before its first instruction, so there is no install folder, no shortcut, and no `%TEMP%\PromptPicker-install.log`. CyberCapture or Behavior Shield can do the same. Defender's protection history stays empty while Defender is passive. Do not turn Avast or AVG off. Add an exception for the setup file, or submit it as a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL from the releases page. After it is cleared, run the same installer again.
 
-**Why was the old Start Menu shortcut an "Unspecified error"?** That shortcut stored an AppUserModelID the Start Menu could not activate. 0.1.13 does not create a Start Menu shortcut and removes the old one.
+**Why was an old Start Menu shortcut an "Unspecified error"?** That shortcut stored an AppUserModelID the Start Menu could not activate. Prompt Picker does not create a Start Menu shortcut and removes the old one.
 
 **What does "keep data" remember?** Prompts and every preference, the chosen folder, the installer language, and the desktop shortcut choice. The next install prefills those. "Wipe everything" removes them.
 
@@ -71,7 +73,7 @@ Settings > Others and Windows Settings > Apps offer the same two choices.
 
 - The app writes `%APPDATA%\Prompt Picker\startup.log` on each launch and `%APPDATA%\Prompt Picker\crash.log` when something fails. Include both when you report a bug, along with the app version, the Windows version, and the steps you took.
 - If the Desktop shortcut is missing, open the app from the install folder once. It recreates the Desktop shortcut and removes a stale Start Menu shortcut.
-- If an update from 0.1.6 or 0.1.7 does not finish, download this installer and run it once. Later updates can then install into the same folder.
+- If an older install does not finish updating, download this installer and run it once. Later updates install into the same folder.
 
 ## Community
 
