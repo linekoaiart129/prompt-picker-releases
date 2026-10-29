@@ -1,11 +1,15 @@
 # Changelog
 
-## 0.1.17
+## 0.1.18
 
 - The onboarding tour, hints, and tooltips match the current app: Filters, Label Option (Alt+F and Alt+N), Ctrl+N on Prompts Data, the New-label remove button with Ctrl+Z, Settings > Others (Contact and the two uninstall choices), the install folder, and the update popup.
-- Settings > Shortcuts lists every shortcut, grouped by tab, including Alt+F, Alt+N, and Ctrl+N. Reset to default restores them. A key already used by another action is rejected.
-- Settings > Updates shows the current version, Check for updates, and the short list of what changed. Install steps, checksums, and illustrations stay on this page.
-- Avast or AVG Auto-Sandbox can stop the unsigned setup before it starts. Do not turn the antivirus off. 0.1.16 installs when that sandbox is not blocking the file. SmartScreen still uses More info, then Run anyway.
+- Settings > Shortcuts lists every shortcut, grouped by tab, including Alt+F, Alt+N, and Ctrl+N. They can be rebound. Reset to default restores them. A key already used by another action is rejected.
+- Settings > Updates shows the current version, Check for updates, and the short list of what changed.
+- Prompt Log date added follows file order: the last character is newest and the first is oldest. Existing added dates are rewritten from that order. Each character has a stable numeric id. Importing the same id replaces that character's log instead of duplicating it.
+- Settings > Reset has Delete Prompt Data, Delete Prompt Log, and Delete all (both), each with its own confirmation.
+- Import file opens the system file picker and imports immediately.
+- Refresh is at the top-right inside Prompts Data. It highlights when the list stalls or a load fails, and it does not drop an unsaved edit.
+- Avast or AVG Auto-Sandbox can stop the unsigned setup before it starts. Do not turn the antivirus off. SmartScreen still uses More info, then Run anyway.
 
 ## 0.1.16
 
