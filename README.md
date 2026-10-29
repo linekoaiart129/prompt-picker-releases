@@ -1,7 +1,7 @@
 # Prompt Picker
 
-[![Latest release](https://img.shields.io/github/v/release/broplaygame75-ai/prompt-picker-releases)](https://github.com/broplaygame75-ai/prompt-picker-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/broplaygame75-ai/prompt-picker-releases/total)](https://github.com/broplaygame75-ai/prompt-picker-releases/releases)
+[![Latest release](https://img.shields.io/github/v/release/linekoaiart129/prompt-picker-releases)](https://github.com/linekoaiart129/prompt-picker-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/linekoaiart129/prompt-picker-releases/total)](https://github.com/linekoaiart129/prompt-picker-releases/releases)
 
 **18+.** Prompt Picker is for adults. The first launch asks "Are you 18 or older?"
 
@@ -11,17 +11,17 @@ Prompt Picker draws one prompt from your own library. It keeps the prompt text, 
 
 ## Download
 
-Installers are on the [releases](https://github.com/broplaygame75-ai/prompt-picker-releases/releases) page.
+Installers are on the [releases](https://github.com/linekoaiart129/prompt-picker-releases/releases) page.
 
-- `PromptPicker-Setup-1.1.4.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
-- `PromptPicker-1.1.4-Windows.zip` contains the installer, the install guide, and the pictures.
+- `PromptPicker-Setup-1.1.5.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
+- `PromptPicker-1.1.5-Windows.zip` contains the installer, the install guide, and the pictures.
 
-SHA-256 checksums for 1.1.4:
+SHA-256 checksums for 1.1.5:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-1.1.4.exe` | `36b6f851c6105de3f02166f6403ce4e51df9da430ebaffe318ed7cb1b4e06780` |
-| `PromptPicker-1.1.4-Windows.zip` | `e96badae810858c722592880dcfbf835678c7582178700eea0fc572bb46c46f7` |
+| `PromptPicker-Setup-1.1.5.exe` | `6bd1a28bbca5393baceb409db128d731aa1fe63030348997683ff80e9c711f2b` |
+| `PromptPicker-1.1.5-Windows.zip` | `3ac9b893f0e5b1e3a4e2e962c38674a73c887e3670573b1a7d4af34b947f99ba` |
 
 The same checksums are listed with the download files on that version's release. The release notes do not repeat this install guide.
 
