@@ -7,8 +7,8 @@ body:
     id: version
     attributes:
       label: App version
-      description: The version shown in Settings, for example 0.1.13.
-      placeholder: 0.1.13
+      description: The version shown in Settings. Windows is 1.1.1. The web app is 1.2.0.
+      placeholder: 1.1.1
     validations:
       required: true
   - type: input
