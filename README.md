@@ -5,31 +5,32 @@
 
 **18+.** Prompt Picker is for adults. The first launch asks "Are you 18 or older?"
 
-Windows desktop app for picking and organizing prompts. This repository publishes installers and documentation only. Source code is not included.
+Prompt Picker draws one prompt from your own library. It keeps the prompt text, names, levels, labels, notes, and a log of which character used which row. You can search, sort, and import or export that library as JSON. Each GitHub release lists only what changed and the download files. This page is the install guide. This repository publishes installers and documentation only. Source code is not included.
 
 ## Download
 
 Installers are on the [releases](https://github.com/broplaygame75-ai/prompt-picker-releases/releases) page.
 
-- `PromptPicker-Setup-0.1.16.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
-- `PromptPicker-0.1.16-Windows.zip` contains the installer, the install guide, and the pictures.
+- `PromptPicker-Setup-0.1.17.exe` is the installer. Auto-update uses this file and `latest.yml`. Leave those names as they are.
+- `PromptPicker-0.1.17-Windows.zip` contains the installer, the install guide, and the pictures.
 
-SHA-256 checksums for 0.1.16:
+SHA-256 checksums for 0.1.17:
 
 | File | SHA-256 |
 | --- | --- |
-| `PromptPicker-Setup-0.1.16.exe` | `cef685884008804f15df0025b8ef891f1ffbaf7538eb9fecd36316d4e508e414` |
-| `PromptPicker-0.1.16-Windows.zip` | `f70e3950f8f2cb9101cb3a56ce8954bbe0fd52cc17b403edc78903d1ab35b859` |
+| `PromptPicker-Setup-0.1.17.exe` | `e4c90ec877c26b32320ebd7c49f4a2a36e4b8e80cb6b006b0f30b1bfb891d73d` |
+| `PromptPicker-0.1.17-Windows.zip` | `2dfcd8e56d1549d8b87ffe52648acdea8381c21fdffc92e2b28cd2694b47e2e6` |
 
-The same checksums are in the release notes.
+The same checksums are listed with the download files on that version's release. The release notes do not repeat this install guide.
 
 ## Install
 
 1. Download the Setup exe, or open the zip and run the Setup exe inside it.
 2. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**. The app is not code-signed. Do not turn off SmartScreen or Defender.
-3. Choose a folder. The suggested folder is `C:\Prompt Picker` when that location can be created. Otherwise it is a Prompt Picker folder in your user profile. Program files go in the folder you choose.
-4. A Desktop shortcut is created. A Start Menu shortcut is not created, and an old Start Menu shortcut named Prompt Picker is removed.
-5. Confirm you are 18 or older, then pick a prompt.
+3. Avast or AVG Auto-Sandbox can stop the unsigned installer before it starts. Do not turn the antivirus off. Add an exception for the setup file, or report a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL. If `%TEMP%\PromptPicker-install.log` was never created, setup did not start. 0.1.16 installs once that sandbox is not blocking the file.
+4. Choose a folder. The suggested folder is `C:\Prompt Picker` when that location can be created. Otherwise it is a Prompt Picker folder in your user profile. Program files go in the folder you choose.
+5. A Desktop shortcut is created. A Start Menu shortcut is not created, and an old Start Menu shortcut named Prompt Picker is removed.
+6. Confirm you are 18 or older, then pick a prompt.
 
 Pictures and the same steps in English, Tiếng Việt, 中文, and 한국어 are in the [install guide](guide/HOW-TO-INSTALL.md).
 
@@ -58,9 +59,9 @@ Settings > Others and Windows Settings > Apps offer the same two choices.
 
 **Will an update erase my prompts?** No. An update replaces the program files in the folder you chose.
 
-**Why does SmartScreen warn me?** The installer is not code-signed. More info, then Run anyway, is the expected step. Leave SmartScreen and Defender on.
+**Why does SmartScreen warn me?** The installer is not code-signed. Click **More info**, then **Run anyway**. Leave SmartScreen and Defender on. Do not turn them off.
 
-**Avast blocked the installer and nothing was installed.** Avast (CyberCapture or Behavior Shield) can stop an unsigned NSIS installer before its first instruction. Defender's protection history stays empty when Defender is in passive mode because another antivirus is active. Do not turn Avast off. If `%TEMP%\PromptPicker-install.log` was not created, setup never started. Submit the setup exe as a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL from the releases page. After Avast clears the file, run the same installer again.
+**Avast or AVG blocked the installer and nothing was installed.** Auto-Sandbox can stop the unsigned setup before its first instruction, so there is no install folder, no shortcut, and no `%TEMP%\PromptPicker-install.log`. CyberCapture or Behavior Shield can do the same. Defender's protection history stays empty while Defender is passive. This was confirmed: 0.1.16 installs when Avast Auto-Sandbox is not blocking the file. Do not turn Avast or AVG off. Add an exception for the setup file, or submit it as a false positive at [Avast's false-positive form](https://www.avast.com/false-positive-file-form) and include the download URL from the releases page. After it is cleared, run the same installer again.
 
 **Why was the old Start Menu shortcut an "Unspecified error"?** That shortcut stored an AppUserModelID the Start Menu could not activate. 0.1.13 does not create a Start Menu shortcut and removes the old one.
 
