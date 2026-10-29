@@ -1,4 +1,4 @@
-# Install Prompt Picker 1.1.4
+# Install Prompt Picker 1.1.5
 
 **18+.** This app is for adults. The pictures below are illustrations.
 
@@ -11,7 +11,7 @@ Guides:
 - [中文](HOW-TO-INSTALL.zh.md)
 - [한국어](HOW-TO-INSTALL.ko.md)
 
-Auto-update keeps using `PromptPicker-Setup-1.1.4.exe` and `latest.yml`. This zip adds the guide and the pictures beside that exe.
+Auto-update keeps using `PromptPicker-Setup-1.1.5.exe` and `latest.yml`. This zip adds the guide and the pictures beside that exe.
 
 An update installs into the folder you already chose. It does not delete prompts or settings.
 
