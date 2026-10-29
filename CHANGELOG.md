@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.2
+
+- The working session is restored after an update or restart: character, Name and Source, the last pick, Level / Exclude / Priority, the open tab, scroll position, and unsaved text.
+- Add prompt and Paste prompts can be typed in. One closes the other. Esc or the close button dismisses the panel.
+- Narrow windows keep Refresh compact, keep form controls at a normal height, and wrap prompt cards inside their rounded frame.
+
 ## 1.1.1
 
 First public release of the Windows app.
