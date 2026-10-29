@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+
+- Pick existing selects the same character after a reload or an update, using its log id. New mode still restores Name and Source. A deleted character is left unselected.
+
 ## 1.1.2
 
 - The working session is restored after an update or restart: character, Name and Source, the last pick, Level / Exclude / Priority, the open tab, scroll position, and unsaved text.
