@@ -1,7 +1,9 @@
 # Changelog
 
-## 0.1.15
+## 0.1.16
 
+- If setup can start but cannot write the folder, it explains Controlled Folder Access, antivirus, or a permissions policy, and points to `%TEMP%\PromptPicker-install.log`. That log records the account name, the profile folder, and the temp folder from the first step. Do not turn antivirus off. If the log file was never created, setup was stopped before it started.
+- Label Option: Alt+F sets a filterable label and Alt+N adds a note. On the Prompts Data tab, Ctrl+N opens a new prompt with the next row number and the usual default level.
 - An update installs into the existing folder, including a 0.1.12 install in `%LOCALAPPDATA%\Programs\Prompt Picker`. It does not add a second copy. A silent upgrade overwrites that folder and does not run the previous uninstaller. Setup does not relaunch, delete, or move its own exe. The first launch removes a leftover copy in another folder and points the Desktop shortcut at the running program.
 - The uninstaller shows one window, closes Prompt Picker first, and does not start the app.
 - The installer asks for a folder. The suggested folder is `C:\Prompt Picker` when it can be created, otherwise a Prompt Picker folder in your user profile. A path with a space is kept in full.
