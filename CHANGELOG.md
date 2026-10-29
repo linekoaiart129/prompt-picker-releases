@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.4
+
+- Pick reads the selected character's done rows at the moment of the click and never returns one of those rows. Fast clicks and Enter are locked until that row is saved. Undo and Redo update the same list immediately.
+- The done-row numbers on a character card stay within three lines. Older numbers collapse into a leading …, and the newest numbers stay visible. Hover or click the list to see every number. The full list is still what Pick checks.
+- Prompt Log starts with Date added, newest and Pick order, newest to oldest. A later choice is remembered. A fresh install, a missing saved choice, or Delete all uses these defaults again.
+- Prompt Log’s clear control is labelled Clear rows with this label. Clear labelled rows deletes logged rows that have that label, after a confirm that lists how many. The prompts stay.
+
 ## 1.1.3
 
 - Pick existing selects the same character after a reload or an update, using its log id. New mode still restores Name and Source. A deleted character is left unselected.
