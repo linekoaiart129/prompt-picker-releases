@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.8
+
+- Pick, Copy, Undo, and Redo sit in one row inside a single card, with equal widths and the same height. Go to prompt is full width on the row below. The picked prompt's title stays above that card.
+- Hover help is off until you turn it on in Settings, Others. Pointing at a field, button, or section shows a short guide after a brief pause. The guide does not cover the field you are typing in. Save keeps the choice.
+- The finished-row numbers on a character stay within three lines. Older numbers collapse into a leading …, and the newest numbers stay at the end. Pointing at or clicking that list does not open another list.
+- Primary and Secondary use the same picker in Filter labels and in Theme colors: a horizontal hue bar with one round handle, plus a swatch and a hex field. The color stays as you pick it until you press Save.
+- No color is a checkbox. A tick makes that label chip's background transparent everywhere it appears. Untick brings its Primary and Secondary colors back. The Filter column is gone. Labels in Filter labels stay available for filtering.
+- A label with no custom colors uses the current Theme colors, and it follows theme changes until you set a color for that label. Reset to theme drops the custom colors. No color still makes the chip transparent.
+- Clear rows with this label chooses characters from a searchable list. The choices are All characters and each character. Tick several, or click a name to select only that one. Select all and Clear selection are included, with a count such as 3 selected. The confirm names the characters and how many rows will be deleted.
+
 ## 1.1.7
 
 - Theme colors stay as you pick them until you press Save. Choosing Primary and then Secondary no longer puts Primary back. Closing Settings without Save restores the saved colors.
