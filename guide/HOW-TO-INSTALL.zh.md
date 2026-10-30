@@ -1,4 +1,4 @@
-# 如何安装 Prompt Picker 1.1.7
+# 如何安装 Prompt Picker 1.1.8
 
 **18+。** Prompt Picker 仅供 18 岁及以上的人使用。第一次打开时会问“你已年满 18 岁吗？”选“是”会继续并记在这台电脑上。选“否”会关闭应用。
 
@@ -8,7 +8,7 @@ Windows 会显示“Windows 已保护你的电脑”，因为这个应用没有�
 
 ## 1. 下载
 
-下载 `PromptPicker-Setup-1.1.7.exe`，或打开 `PromptPicker-1.1.7-Windows.zip` 并运行里面的安装程序。发布页上的 `latest.yml` 请保持原样。已安装的应用靠它检查更新。
+下载 `PromptPicker-Setup-1.1.8.exe`，或打开 `PromptPicker-1.1.8-Windows.zip` 并运行里面的安装程序。发布页上的 `latest.yml` 请保持原样。已安装的应用靠它检查更新。
 
 ![下载](zh/01-download.png)
 
