@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.6
+
+- Prompt cards no longer show a green edge or a Done badge. Finished rows stay in the log and still stay out of the next pick.
+- Settings renames Labels to Filter labels. The label manager names each column, and resting the pointer on a column name explains what it does.
+- Each label has No color, Primary, and Secondary. No color makes that chip transparent. Primary and Secondary are hue, saturation, and lightness sliders, and those colors show on that label's chips everywhere.
+- Filter stays a checkbox under its own column name. A saved filter choice is kept when you set a color, rename the label, or import.
+- Drag a column edge to resize it. The label manager and the Settings window grow with the column.
+
 ## 1.1.5
 
 - Updates and download links use the GitHub account linekoaiart129. An installed 1.1.4 still finds this release through GitHub's redirect from the previous account.
