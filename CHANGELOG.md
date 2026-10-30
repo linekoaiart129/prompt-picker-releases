@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.7
+
+- Theme colors stay as you pick them until you press Save. Choosing Primary and then Secondary no longer puts Primary back. Closing Settings without Save restores the saved colors.
+- If any Settings tab has unsaved changes, closing Settings or the app window lists what changed, such as Theme colors: Primary, Secondary or Shortcuts: Pick. Apply saves everything and closes. Cancel forgets the changes and closes. Back returns to editing.
+- Language, font size, shortcuts, filter labels, theme colors, and Others each save only when you press Save.
+- Recent colors shows up to 10 colors you saved, newest first. Click one to set the selected Primary or Secondary color.
+- Suggested colors has pairs you can apply together: Neon Pink / Violet, Sunset Orange / Crimson, Ocean Teal / Deep Blue, Forest Green / Lime, Gold / Bronze, Lavender / Lilac, Mint / Cyan, Ruby / Black, Halloween Orange / Purple, and Christmas Red / Green.
+- The logo uses Primary and Secondary. After Save, the window icon is redrawn in those colors. The installed program icon and the desktop shortcut stay the icon from setup.
+
 ## 1.1.6
 
 - Prompt cards no longer show a green edge or a Done badge. Finished rows stay in the log and still stay out of the next pick.
