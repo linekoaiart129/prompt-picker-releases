@@ -8,6 +8,7 @@
 - Recent colors shows up to 10 colors you saved, newest first. Click one to set the selected Primary or Secondary color.
 - Suggested colors has pairs you can apply together: Neon Pink / Violet, Sunset Orange / Crimson, Ocean Teal / Deep Blue, Forest Green / Lime, Gold / Bronze, Lavender / Lilac, Mint / Cyan, Ruby / Black, Halloween Orange / Purple, and Christmas Red / Green.
 - The logo uses Primary and Secondary. After Save, the window icon is redrawn in those colors. The installed program icon and the desktop shortcut stay the icon from setup.
+- Gradient buttons and selected segments, including Prompt Pick, Explicit, and Pick existing, fill edge to edge. Rounded corners match, and theme colors no longer leave a light ring or a dark sliver on the edge.
 
 ## 1.1.6
 
