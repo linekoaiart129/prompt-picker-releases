@@ -1,4 +1,4 @@
-# Prompt Picker 1.1.7 설치 방법
+# Prompt Picker 1.1.8 설치 방법
 
 **18+.** Prompt Picker는 18세 이상을 위한 앱입니다. 처음 실행하면 "18세 이상입니까?"라고 묻습니다. 예는 이 PC에 기억되고 앱이 열립니다. 아니오는 앱을 닫습니다.
 
@@ -8,7 +8,7 @@ Windows가 "Windows가 PC를 보호했습니다"라고 표시하는 이유는 �
 
 ## 1. 다운로드
 
-`PromptPicker-Setup-1.1.7.exe`를 받거나 `PromptPicker-1.1.7-Windows.zip`을 열고 안의 설치 파일을 실행하세요. 릴리스 페이지의 `latest.yml`은 그대로 두세요. 설치된 앱이 그 파일로 업데이트를 확인합니다.
+`PromptPicker-Setup-1.1.8.exe`를 받거나 `PromptPicker-1.1.8-Windows.zip`을 열고 안의 설치 파일을 실행하세요. 릴리스 페이지의 `latest.yml`은 그대로 두세요. 설치된 앱이 그 파일로 업데이트를 확인합니다.
 
 ![다운로드](ko/01-download.png)
 
