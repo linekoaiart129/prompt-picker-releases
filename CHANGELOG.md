@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.11
+
+- Auto-update downloads the full installer. A missing blockmap does not stop the update. If the download fails, Prompt Picker tries the full installer once more. The dialog shows the real error under the manual link.
+- A slow download is given more time before it is treated as a failure.
+- Version numbers compare numerically, so 1.1.10 is newer than 1.1.9.
+
 ## 1.1.10
 
 - Labels replaces Filterable labels in the edit form, on cards, in Prompt Log, and in Settings. The Settings tab is named Labels.
