@@ -15,6 +15,7 @@ Prompt Picker is a Windows app for adults. It draws one prompt from your own lib
 ### Prompt Data
 
 - Add, paste, and edit prompts.
+- Labels are used for filtering. Notes are descriptive tags, and a comma separates them.
 - Search and sort your library.
 - Import and export a backup.
 
