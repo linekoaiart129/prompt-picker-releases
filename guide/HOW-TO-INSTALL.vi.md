@@ -1,4 +1,4 @@
-# Cách cài Prompt Picker 1.1.8
+# Cách cài Prompt Picker 1.1.9
 
 **18+.** Prompt Picker dành cho người từ 18 tuổi trở lên. Lần đầu mở, app hỏi "Bạn đã đủ 18 tuổi chưa?" Có thì vào app và được nhớ trên máy. Không thì app đóng.
 
@@ -8,7 +8,7 @@ Windows hiện "Windows protected your PC" vì app chưa được ký số. Cả
 
 ## 1. Tải về
 
-Tải `PromptPicker-Setup-1.1.8.exe`, hoặc mở `PromptPicker-1.1.8-Windows.zip` rồi chạy file Setup bên trong. Giữ nguyên `latest.yml` trên trang release. Bản đã cài dùng file đó để tự cập nhật.
+Tải `PromptPicker-Setup-1.1.9.exe`, hoặc mở `PromptPicker-1.1.9-Windows.zip` rồi chạy file Setup bên trong. Giữ nguyên `latest.yml` trên trang release. Bản đã cài dùng file đó để tự cập nhật.
 
 ![Tải về](vi/01-download.png)
 
