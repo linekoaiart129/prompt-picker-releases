@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.10
+
+- Labels replaces Filterable labels in the edit form, on cards, in Prompt Log, and in Settings. The Settings tab is named Labels.
+- Descriptive labels are gone. Notes are descriptive tags. A comma or Enter splits Labels and Notes into chips. Notes are not used for filtering.
+- Opening 1.1.10 keeps your old data. Descriptive labels move into Notes, and a backup of the previous data file is saved first. Old imports still map descriptive labels to Notes.
+
 ## 1.1.9
 
 - Hover help shows one guide. While it is on, the old title tooltip stays hidden, so a field such as character search does not show two boxes. The guide sits beside the field and stays inside the window. A field inside a section shows that field's guide only. With Hover help off, only the short tooltips on icon buttons remain.
