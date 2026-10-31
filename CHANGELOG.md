@@ -2,6 +2,7 @@
 
 ## 1.1.11
 
+- Deleting a prompt removes its number from every character log, the Prompt Log, and pick history. Undo puts that number back for the same characters, in the same places. A new prompt that reuses the number does not show up in those old logs. Opening this version removes numbers that already belonged to deleted prompts.
 - Auto-update downloads the full installer. A missing blockmap does not stop the update. If the download fails, Prompt Picker tries the full installer once more. The dialog shows the real error under the manual link.
 - A slow download is given more time before it is treated as a failure.
 - Version numbers compare numerically, so 1.1.10 is newer than 1.1.9.
