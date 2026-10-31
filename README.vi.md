@@ -15,6 +15,7 @@ Prompt Picker là ứng dụng Windows dành cho người trưởng thành. App 
 ### Dữ liệu prompt
 
 - Thêm, dán và sửa prompt.
+- Nhãn dùng để lọc. Ghi chú là thẻ mô tả, dấu phẩy tách chúng.
 - Tìm và sắp xếp thư viện.
 - Nhập và xuất bản sao lưu.
 
