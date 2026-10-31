@@ -1,4 +1,4 @@
-# How to install Prompt Picker 1.1.8
+# How to install Prompt Picker 1.1.9
 
 **18+.** Prompt Picker is for adults. The first launch asks "Are you 18 or older?" Yes continues and is remembered on this PC. No closes the app.
 
@@ -8,7 +8,7 @@ Windows shows "Windows protected your PC" because this app is not code-signed. T
 
 ## 1. Download
 
-Download `PromptPicker-Setup-1.1.8.exe`, or open `PromptPicker-1.1.8-Windows.zip` and run the Setup exe inside it. Leave `latest.yml` on the release page. The installed app uses that file to update itself.
+Download `PromptPicker-Setup-1.1.9.exe`, or open `PromptPicker-1.1.9-Windows.zip` and run the Setup exe inside it. Leave `latest.yml` on the release page. The installed app uses that file to update itself.
 
 ![Download](en/01-download.png)
 
