@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.9
+
+- Hover help shows one guide. While it is on, the old title tooltip stays hidden, so a field such as character search does not show two boxes. The guide sits beside the field and stays inside the window. A field inside a section shows that field's guide only. With Hover help off, only the short tooltips on icon buttons remain.
+- Clear rows with this label sits in a rounded frame with the character target, the label box, Clear labelled rows, Undo, Redo, and the explanation.
+- The Level filter no longer repeats Level under the heading. All levels, Mild, and Explicit sit in one row across that frame.
+
 ## 1.1.8
 
 - Pick, Copy, Undo, and Redo sit in one row inside a single card, with equal widths and the same height. Go to prompt is full width on the row below. The picked prompt's title stays above that card.
