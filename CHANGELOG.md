@@ -5,6 +5,10 @@
 - Labels replaces Filterable labels in the edit form, on cards, in Prompt Log, and in Settings. The Settings tab is named Labels.
 - Descriptive labels are gone. Notes are descriptive tags. A comma or Enter splits Labels and Notes into chips. Notes are not used for filtering.
 - Opening 1.1.10 keeps your old data. Descriptive labels move into Notes, and a backup of the previous data file is saved first. Old imports still map descriptive labels to Notes.
+- Editing a prompt updates the Prompt Pick card immediately. Logged numbers stay, and there is no edited-after-logging notice.
+- Deleting a prompt removes it from Prompt Pick and it cannot be picked again. Its number stays in the character log. Go to prompt says Deleted. Other prompts keep their numbers.
+- Prompts Data has its own Undo and Redo, including Ctrl+Z and Ctrl+Y. Undoing a delete brings the prompt back with its old number.
+- A new prompt, including each pasted row, takes the lowest free number first.
 
 ## 1.1.9
 
