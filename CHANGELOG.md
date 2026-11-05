@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.12
+
+- A narrow arrow on the left edge edits the prompt open in Prompt Pick. In that editor, the arrow sits on the right edge and returns to Pick. B toggles the two. The arrow stays visible in the wide layout and the narrow layout.
+- 1 opens Prompt Pick, 2 opens Prompts Data, and 3 opens Prompt Log.
+- Clicking a prompt card highlights it with the theme Primary and Secondary colors. The Copy shortcut, Q unless you change it, copies that card. Undo and Redo still apply after Save while the card stays highlighted.
+- E cycles the level filter from Mild to Explicit to All levels, with a small toast such as Level: Explicit.
+- A single-key shortcut does not run while you are typing in a text box or a chip field. The new shortcuts are in Settings, Shortcuts.
+
 ## 1.1.11
 
 - Deleting a prompt removes its number from every character log, the Prompt Log, and pick history. Undo puts that number back for the same characters, in the same places. A new prompt that reuses the number does not show up in those old logs. Opening this version removes numbers that already belonged to deleted prompts.
