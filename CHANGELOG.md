@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.13
+
+- The Public tab uses cards: a title, an author initial, platform and level chips, and like and comment counts. Opening a card shows the prompt, tags, and comments.
+- Save to my prompts is the gradient button. Like is a heart that updates the count immediately. Report sits in the More menu. A round X, Esc, or a click outside the card closes it.
+- Settings, the update dialog, and Help close with a round X. Esc or a click outside closes the update dialog and Help. The update dialog stays open while a download is in progress. Unsaved settings still ask before they are discarded.
+- Prompt Pick, Prompts Data, Prompt Log, the edge arrow, shortcuts, undo and redo, and updates stay as they are.
+
 ## 1.1.12
 
 - A narrow arrow on the left edge edits the prompt open in Prompt Pick. In that editor, the arrow sits on the right edge and returns to Pick. B toggles the two. The arrow stays visible in the wide layout and the narrow layout.
