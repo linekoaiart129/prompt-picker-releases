@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.15
+
+- Sync with Prompt Picker Web writes each prompt and log change into the shared Prompt Picker folder. The folder keeps the name Prompt Picker, and a prompt-picker.id file identifies it.
+- Refresh, next to Help and Settings, reads that folder again. F5 and Ctrl+R do the same. New prompts are added only after you confirm. Nothing is replaced on its own.
+- The Windows app still has no account sign-in. Sync is the shared folder only.
+
 ## 1.1.14
 
 - Settings, Others has Sync with Prompt Picker Web. It stays off until you turn it on. Sync folder is the Prompt Picker folder on this PC. In the browser, choose the folder that contains it. No network port is opened.
