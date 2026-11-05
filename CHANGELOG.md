@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.14
+
+- Settings, Others has Sync with Prompt Picker Web. It stays off until you turn it on. The sync folder path is the Prompt Picker data folder on this PC. No network port is opened.
+- When sync is on and Prompt Picker Web writes new prompts into that folder, the app asks before adding them. You can edit, keep one version, or skip, and apply that choice to the rest. Existing prompts are not replaced on their own.
+- Turning sync on also writes this app’s prompt log into the same folder so the web version can ask before importing it.
+- Prompts Data has Paste prompt. It reads a Title, Prompt, Negative, Platform, Labels, and Notes block from the clipboard, or plain text, and opens the editor so you can confirm before saving.
+
 ## 1.1.13
 
 - Prompt Pick, Prompts Data, and Prompt Log use rounder cards, pill chips, and the same gradient on the main buttons.
