@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.16
+
+- Prompt Pick keeps Pick, Copy, Undo, Redo, and Go to prompt in one frame. A right arrow inside that frame opens the editor for the prompt that is currently picked. A left arrow in the same frame returns to those buttons. The old arrow on the outside edge is gone.
+- The editor stays on Prompt Pick. It shows Prompt text, Labels, and Notes, with Save at the bottom. Save turns off after it is used, and turns on again when the prompt, a label, or a note changes. The picked prompt card below updates as soon as you save.
+- B still switches between those two views, and it does not run while you are typing.
+
 ## 1.1.15
 
 - Sync with Prompt Picker Web writes each prompt and log change into the shared Prompt Picker folder. The folder keeps the name Prompt Picker, and a prompt-picker.id file identifies it.
