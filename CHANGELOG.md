@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.20
+
+- Settings, Others has Show Prompt Pick tab and Show Prompt Log tab. Both stay on until you turn one off. The choice is saved on this PC and restored the next time Prompt Picker opens.
+- Hiding the open tab switches to another visible tab right away. A shortcut for a hidden tab does not open it, and the saved last tab does not open a hidden tab.
+- At least one tab stays visible. The last visible tab cannot be turned off. Every top-level tab counts, including Prompts Data.
+
 ## 1.1.16
 
 - Prompt Pick keeps Pick, Copy, Undo, Redo, and Go to prompt in one frame. A right arrow inside that frame opens the editor for the prompt that is currently picked. A left arrow in the same frame returns to those buttons. The old arrow on the outside edge is gone.
